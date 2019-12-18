@@ -11,8 +11,8 @@ const Contactos = () => (
       console.log(data.getClientes)
       return (
         <Fragment>
-          <h2 classname="text-center">Listado Clientes</h2>
-          <ul classname="list-group">
+          <h2 classname="text-center mt-4">Listado Clientes</h2>
+          <ul classname="list-group mt-4">
             {data.getClientes.map(item => (
               <li key={item.id} className="list-group-item">
                 <div className="row justify-content-between align-items-center">
