@@ -4,7 +4,7 @@ class EditarCliente extends Component {
   state = { }
   render() {
     return(
-      <h2 className="text-center">EditarCliente</h2>
+      <h2 className="text-center mt-4">EditarCliente</h2>
     )
   }
 }
